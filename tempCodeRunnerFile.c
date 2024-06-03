@@ -1,1 +1,1 @@
- stmnet\n 
+ if(i==
