@@ -13,7 +13,7 @@ void main()
  }
  // sum of all element of matrix
  int sum=0;
-  for(i=0;i<2;i++)//2
+  for(i=0;i<2;i++)//1
  {
     for(j=0;j<2;j++)//0
     {
