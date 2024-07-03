@@ -17,7 +17,7 @@ void main()
     }
     s++;//3
     ptr=(int*)realloc(temp,(s+1)*sizeof(int));
-
+    temp=ptr;
  }
  printf("ammount display of workers : ");
  for(i=0;i<(s+1);i++)
@@ -25,4 +25,5 @@ void main()
     printf("%d\n",*ptr);
     ptr++;
  }
+ free(temp);
 }
