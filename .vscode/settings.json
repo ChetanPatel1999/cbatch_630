@@ -2,6 +2,7 @@
     "files.associations": {
         "*.html": "html",
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "string.h": "c"
     }
 }

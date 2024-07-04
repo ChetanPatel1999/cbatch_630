@@ -15,12 +15,12 @@ void main()
     {
         break;
     }
-    s++;//3
+    s++;//2
     ptr=(int*)realloc(temp,(s+1)*sizeof(int));
     temp=ptr;
  }
  printf("ammount display of workers : ");
- for(i=0;i<(s+1);i++)
+ for(i=0;i<=s;i++)
  {
     printf("%d\n",*ptr);
     ptr++;

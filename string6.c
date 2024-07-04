@@ -4,7 +4,7 @@
 #include<stdio.h>
 void main()
 {
- char name[20];
+ char name[5];
  printf("enter a name :");
  gets(name);//take string from user
  //printf("name = %s\n",name);

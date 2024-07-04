@@ -4,9 +4,9 @@
 #include<stdio.h>
 void main()
 {
- char name[20];
+ char name[5];
  printf("enter a name :");
- fgets(name,20,stdin);//take string from user
+ fgets(name,5,stdin);//take string from user
  //printf("name = %s\n",name);
  printf("name : ");
  fputs(name,stdout);//display on output screen
