@@ -10,6 +10,7 @@ struct pen
 void main()
 {
  struct pen p1,p2,p3;
+ printf("size of p1 = %d\n",sizeof(struct pen));
  printf("enter p1 info: \n");
  printf("enter pen name : ");
  scanf("%s",p1.name);

@@ -9,9 +9,12 @@ struct pen
 };
 void main()
 {
- struct pen p[3];
+ int n;
+ printf("enter no of pen :");
+ scanf("%d",&n);   
+ struct pen p[n];//p[0],p[1],p[2]
  int i;
- for(i=0;i<3;i++)//1
+ for(i=0;i<n;i++)//2
  {
  printf("enter p%d info: \n",i+1);
  printf("enter pen name : ");
@@ -21,7 +24,7 @@ void main()
  printf("enter pen rating : ");
  scanf("%f",&p[i].rat);
  }
-for(i=0;i<3;i++)
+for(i=0;i<n;i++)
 {
  printf("p%d info : \n",i+1);
  printf("name of pen : %s\n",p[i].name);

@@ -1,15 +1,16 @@
 // structure in c
 #include<stdio.h>
 #include<string.h>
-struct pen
+struct pen_of_india
 {
     char name[20];
     int price;
     float rat;
 };
+typedef struct pen_of_india poi;
 void main()
 {
- struct pen p1,p2={"reynolds",10,4.5},p3;
+ poi p1,p2={"reynolds",10,4.5},p3;
  strcpy(p1.name,"cello");
  p1.price=5;
  p1.rat=3.5;
