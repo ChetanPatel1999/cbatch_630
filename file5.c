@@ -5,7 +5,7 @@ void main()
 {
  FILE *pf;
  char ch;
- pf=fopen("file5.c","r");
+ pf=fopen("atable.txt","r");
  while(1)
  {
     ch=fgetc(pf);
